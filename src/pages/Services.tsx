@@ -113,7 +113,7 @@ const Services = () => {
                 Comprehensive moving and packing solutions for all your needs in Sonipat and Delhi NCR
               </p>
               <Button size="lg" asChild>
-                <a href="tel:+919896158100">Call Now: +91 98961 58100</a>
+                <a href="tel:+919068662191">Call Now: +91 90686 62191</a>
               </Button>
             </div>
           </div>
@@ -166,12 +166,12 @@ const Services = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
+                <a href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
                   WhatsApp Quote
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="bg-transparent border-white text-white hover:bg-white hover:text-primary">
-                <a href="tel:+919896158100">Call: +91 98961 58100</a>
+                <a href="tel:+919068662191">Call: +91 90686 62191</a>
               </Button>
             </div>
           </div>

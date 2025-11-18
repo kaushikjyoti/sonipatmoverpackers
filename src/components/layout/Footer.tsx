@@ -34,6 +34,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/blog" className="text-sm text-muted-foreground hover:text-primary">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary">
                   Contact Us
                 </Link>
@@ -57,11 +62,11 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground">Contact Us</h4>
             <div className="space-y-3">
               <a
-                href="tel:+919896158100"
+                href="tel:+919068662191"
                 className="flex items-start space-x-2 text-sm text-muted-foreground hover:text-primary"
               >
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>+91 98961 58100</span>
+                <span>+91 90686 62191</span>
               </a>
               <a
                 href="mailto:sonipatpackermovers@gmail.com"

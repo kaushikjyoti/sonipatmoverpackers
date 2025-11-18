@@ -40,7 +40,7 @@ const Hero = () => {
                 asChild
                 className="text-lg px-8 py-6 h-auto"
               >
-                <a href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
+                <a href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
                   <Phone className="mr-2 h-5 w-5" />
                   WhatsApp Now
                 </a>

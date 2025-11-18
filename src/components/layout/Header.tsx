@@ -11,6 +11,7 @@ const Header = () => {
     { name: "Services", href: "/services" },
     { name: "Sonipat to Delhi", href: "/sonipat-to-delhi" },
     { name: "Pricing", href: "/pricing" },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -42,14 +43,14 @@ const Header = () => {
           {/* Phone CTA */}
           <div className="hidden md:flex items-center space-x-3">
             <a
-              href="tel:+919896158100"
+              href="tel:+919068662191"
               className="flex items-center space-x-2 text-sm font-semibold text-primary hover:text-primary/80"
             >
               <Phone className="h-4 w-4" />
-              <span>+91 98961 58100</span>
+              <span>+91 90686 62191</span>
             </a>
             <Button asChild size="sm">
-              <a href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
+              <a href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
                 Get Quote
               </a>
             </Button>
@@ -57,7 +58,7 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <div className="flex md:hidden items-center space-x-2">
-            <a href="tel:+919896158100" className="text-primary">
+            <a href="tel:+919068662191" className="text-primary">
               <Phone className="h-5 w-5" />
             </a>
             <button
@@ -85,14 +86,14 @@ const Header = () => {
               ))}
               <div className="px-3 pt-3 border-t">
                 <a
-                  href="tel:+919896158100"
+                  href="tel:+919068662191"
                   className="flex items-center space-x-2 text-primary font-semibold mb-3"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>+91 98961 58100</span>
+                  <span>+91 90686 62191</span>
                 </a>
                 <Button asChild className="w-full">
-                  <a href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
+                  <a href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat">
                     Get Free Quote
                   </a>
                 </Button>

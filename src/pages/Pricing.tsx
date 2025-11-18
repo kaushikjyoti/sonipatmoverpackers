@@ -52,7 +52,7 @@ const Pricing = () => {
                 No hidden charges. Get the best rates for packers and movers in Sonipat
               </p>
               <Button size="lg" asChild>
-                <a href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20detailed%20moving%20quote">
+                <a href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20detailed%20moving%20quote">
                   Get Custom Quote
                 </a>
               </Button>
@@ -197,12 +197,12 @@ const Pricing = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20detailed%20moving%20quote">
+                <a href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20detailed%20moving%20quote">
                   WhatsApp Quote
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="bg-transparent border-white text-white hover:bg-white hover:text-primary">
-                <a href="tel:+919896158100">Call: +91 98961 58100</a>
+                <a href="tel:+919068662191">Call: +91 90686 62191</a>
               </Button>
             </div>
           </div>

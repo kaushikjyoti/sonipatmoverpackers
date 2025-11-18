@@ -37,10 +37,10 @@ const Contact = () => {
                   </div>
                   <h3 className="font-semibold mb-2">Call Us</h3>
                   <a
-                    href="tel:+919896158100"
+                    href="tel:+919068662191"
                     className="text-primary hover:underline font-semibold"
                   >
-                    +91 98961 58100
+                    +91 90686 62191
                   </a>
                   <p className="text-sm text-muted-foreground mt-1">Mon-Sun, 24/7</p>
                 </CardContent>
@@ -73,10 +73,10 @@ const Contact = () => {
                   </div>
                   <h3 className="font-semibold mb-2">WhatsApp</h3>
                   <a
-                    href="https://wa.me/919896158100?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat"
+                    href="https://wa.me/919068662191?text=Hi,%20I%20need%20a%20moving%20quote%20from%20Sonipat"
                     className="text-primary hover:underline font-semibold"
                   >
-                    +91 98961 58100
+                    +91 90686 62191
                   </a>
                   <p className="text-sm text-muted-foreground mt-1">Instant response</p>
                 </CardContent>

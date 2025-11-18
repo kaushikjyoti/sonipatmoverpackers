@@ -32,6 +32,7 @@ const Hero = () => {
                 onClick={scrollToForm}
                 className="text-lg px-8 py-6 h-auto"
               >
+                <Phone className="mr-2 h-5 w-5" />
                 Get Free Quote
               </Button>
               <Button

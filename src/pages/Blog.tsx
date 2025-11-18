@@ -15,7 +15,7 @@ const Blog = () => {
       date: "March 15, 2024",
       readTime: "5 min read",
       category: "Packing Tips",
-      slug: "/blog/packing-tips-home-shifting",
+      slug: "packing-tips-home-shifting",
     },
     {
       id: "sonipat-to-delhi-guide",
@@ -24,7 +24,7 @@ const Blog = () => {
       date: "March 10, 2024",
       readTime: "7 min read",
       category: "Moving Guides",
-      slug: "/blog/sonipat-to-delhi-guide",
+      slug: "sonipat-to-delhi-guide",
     },
     {
       id: "best-areas-sonipat",
@@ -33,7 +33,7 @@ const Blog = () => {
       date: "March 5, 2024",
       readTime: "6 min read",
       category: "Local Guide",
-      slug: "/blog/best-areas-sonipat",
+      slug: "best-areas-sonipat",
     },
     {
       id: "moving-checklist",
@@ -42,7 +42,7 @@ const Blog = () => {
       date: "February 28, 2024",
       readTime: "8 min read",
       category: "Moving Guides",
-      slug: "/blog/moving-checklist",
+      slug: "moving-checklist",
     },
     {
       id: "office-relocation-tips",
@@ -51,7 +51,7 @@ const Blog = () => {
       date: "February 20, 2024",
       readTime: "6 min read",
       category: "Office Moving",
-      slug: "/blog/office-relocation-tips",
+      slug: "office-relocation-tips",
     },
     {
       id: "vehicle-transport-guide",
@@ -60,7 +60,7 @@ const Blog = () => {
       date: "February 15, 2024",
       readTime: "5 min read",
       category: "Vehicle Transport",
-      slug: "/blog/vehicle-transport-guide",
+      slug: "vehicle-transport-guide",
     },
     {
       id: "monsoon-moving-tips",
@@ -69,7 +69,7 @@ const Blog = () => {
       date: "February 10, 2024",
       readTime: "4 min read",
       category: "Seasonal Tips",
-      slug: "/blog/monsoon-moving-tips",
+      slug: "monsoon-moving-tips",
     },
     {
       id: "packing-fragile-items",
@@ -78,7 +78,7 @@ const Blog = () => {
       date: "February 5, 2024",
       readTime: "6 min read",
       category: "Packing Tips",
-      slug: "/blog/packing-fragile-items",
+      slug: "packing-fragile-items",
     },
     {
       id: "cost-saving-moving-tips",
@@ -87,7 +87,7 @@ const Blog = () => {
       date: "January 28, 2024",
       readTime: "5 min read",
       category: "Budget Tips",
-      slug: "/blog/cost-saving-moving-tips",
+      slug: "cost-saving-moving-tips",
     },
   ];
 

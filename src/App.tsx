@@ -53,6 +53,55 @@ const App = () => {
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+                 {/* ========= EXIT-INTENT POPUP – ₹500 OFF ========= */}
+          <div id="exitPopup" className="fixed inset-0 bg-black bg-opacity-70 z-[9999] hidden flex items-center justify-center px-4">
+            <div className="bg-white rounded-2xl max-w-md w-full p-8 text-center relative shadow-2xl">
+              {/* Close button */}
+              <button 
+                onClick={() => document.getElementById('exitPopup')?.classList.add('hidden')}
+                className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-3xl font-bold"
+              >
+                ×
+              </button>
+
+              <h2 className="text-3xl font-bold text-green-600 mb-3">
+                Wait! Get ₹500 OFF Your Move
+              </h2>
+              <p className="text-gray-700 mb-6 text-lg">
+                Enter your phone number & we’ll send you an instant discounted quote
+              </p>
+
+              <input 
+                type="tel" 
+                placeholder="+91 ___________" 
+                className="w-full border-2 border-gray-300 rounded-xl px-5 py-4 mb-5 text-lg focus:border-green-500 outline-none"
+              />
+
+              <a 
+                href="https://wa.me/919896158100?text=Hi!%20I%20want%20the%20₹500%20discount%20quote%20for%20my%20move%20🚛"
+                className="block bg-green-600 hover:bg-green-700 text-white font-bold text-xl py-5 rounded-xl transition"
+              >
+                Send My Discounted Quote → WhatsApp
+              </a>
+
+              <p className="text-sm text-gray-500 mt-4">Limited slots this week only!</p>
+            </div>
+          </div>
+
+          {/* Exit-intent trigger script */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                let popupShown = false;
+                document.addEventListener('mouseout', function(e) {
+                  if (!e.relatedTarget && !popupShown && e.clientY < 10) {
+                    popupShown = true;
+                    document.getElementById('exitPopup')?.classList.remove('hidden');
+                  }
+                });
+              `,
+            }}
+          />
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>

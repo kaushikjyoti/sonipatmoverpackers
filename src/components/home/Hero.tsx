@@ -21,9 +21,10 @@ const Hero = () => {
                 Best Packers and Movers in{" "}
                 <span className="text-primary">Sonipat</span> – Affordable & Insured Shifting
               </h1>
-              <p className="text-xl sm:text-2xl text-muted-foreground">
-                Home | Office | Vehicle Transport – Door-to-Door Service in Sonipat & Delhi NCR
-              </p>
+            <p className="text-xl sm:text-2xl text-muted-foreground flex items-center gap-2">
+              <Phone className="h-5 w-5" />
+              Home | Office | Vehicle Transport – Door-to-Door Service in Sonipat & Delhi NCR
+            </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">

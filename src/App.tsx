@@ -52,6 +52,8 @@ const App = () => {
             <Route path="/packers-and-movers-sonipat" element={<PackersAndMoversSonipat />} />
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/packers-and-movers-kundli" element={<PackersAndMoversKundli />} />
+<Route path="/packers-and-movers-rai-sonipat" element={<PackersAndMoversRai />} />
           </Routes>
                  {/* ========= EXIT-INTENT POPUP – ₹500 OFF ========= */}
           <div id="exitPopup" className="fixed inset-0 bg-black bg-opacity-70 z-[9999] hidden flex items-center justify-center px-4">

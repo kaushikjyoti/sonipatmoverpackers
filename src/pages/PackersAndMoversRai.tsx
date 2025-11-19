@@ -1,13 +1,14 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 const PackersAndMoversRai = () => {
   return (
     <>
-      <Helmet>
-        <title>Packers and Movers Rai Sonipat | Industrial & Home Shifting</title>
-        <meta name="description" content="Professional packers and movers in Rai, Sonipat. Factory, warehouse & home shifting experts. Rates from ₹6,000. Call +91 90686 62191" />
-      </Helmet>
+      {/* SEO Tags – works perfectly without any library */}
+      <title>Packers and Movers Rai Sonipat | Industrial & Home Shifting</title>
+      <meta
+        name="description"
+        content="Professional packers and movers in Rai, Sonipat. Factory, warehouse & home shifting experts. Rates from ₹6,000. Call/WhatsApp +91 90686 62191"
+      />
 
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-5xl mx-auto px-6">
@@ -33,9 +34,11 @@ const PackersAndMoversRai = () => {
             </div>
           </div>
 
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none mb-12">
             <h2>Best Choice for Rai Industrial Area Shifting</h2>
-            <p>Rai is one of the biggest industrial hubs near Sonipat with hundreds of factories and warehouses. We specialise in heavy machinery shifting, godown relocation and employee home shifting in Rai, Narela, Barhi and nearby areas.</p>
+            <p>
+              Rai is one of the biggest industrial hubs near Sonipat with hundreds of factories and warehouses. We specialise in heavy machinery shifting, godown relocation and employee home shifting in Rai, Narela, Barhi and nearby areas.
+            </p>
 
             <h2>2025 Charges – Rai Packers and Movers</h2>
             <ul>
@@ -47,11 +50,19 @@ const PackersAndMoversRai = () => {
             </ul>
 
             <h2>Why Factories in Rai Trust Us</h2>
-            <p>✓ Hydraulic cranes & trolleys available<br />✓ Experienced labour for heavy items<br />✓ Night shifting allowed<br />✓ Police NOC assistance</p>
+            <p>
+              ✓ Hydraulic cranes & trolleys available<br />
+              ✓ Experienced labour for heavy items<br />
+              ✓ Night shifting allowed<br />
+              ✓ Police NOC assistance
+            </p>
           </div>
 
           <div className="text-center mt-12">
-            <a href="https://wa.me/919068662191?text=Hi!%20Need%20shifting%20quote%20for%20Rai%20Industrial%20Area%20🏭" className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold text-xl py-5 px-12 rounded-xl">
+            <a
+              href="https://wa.me/919068662191?text=Hi!%20Need%20shifting%20quote%20for%20Rai%20Industrial%20Area%20🏭"
+              className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold text-xl py-5 px-12 rounded-xl"
+            >
               Instant Quote → WhatsApp +91 90686 62191
             </a>
           </div>

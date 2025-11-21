@@ -107,6 +107,7 @@ const Home = () => {
       <Footer />
       <WhatsAppButton />
       <ExitIntentPopup />
+      <ExitIntentPopup />
     </div>
   );
 };

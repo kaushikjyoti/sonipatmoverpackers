@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Shield, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -26,8 +26,39 @@ const Header = () => {
     { name: "Kharkhoda", href: "/packers-and-movers-kharkhoda" },
   ];
 
+  const newCityPages = [
+    { name: "Gohana", href: "/packers-and-movers-gohana" },
+    { name: "Samalkha", href: "/packers-and-movers-samalkha" },
+    { name: "Narela", href: "/packers-and-movers-narela" },
+    { name: "Bahalgarh", href: "/packers-and-movers-bahalgarh" },
+    { name: "Kharkhoda Road", href: "/packers-and-movers-kharkhoda-road" },
+    { name: "Panipat Border", href: "/packers-and-movers-panipat-border" },
+    { name: "Rohtak Road", href: "/packers-and-movers-rohtak-road" },
+    { name: "Ganaur Road", href: "/packers-and-movers-ganaur-road" },
+  ];
+
+  const allCityPages = [...cityPages, ...newCityPages];
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      {/* Trust Badges Bar */}
+      <div className="bg-primary/10 border-b">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center gap-6 py-2 text-xs sm:text-sm">
+            <div className="flex items-center gap-2">
+              <Award className="h-4 w-4 text-primary" />
+              <span className="font-semibold">Licensed & IBA Approved</span>
+            </div>
+            <div className="hidden sm:flex items-center gap-2">
+              <Shield className="h-4 w-4 text-primary" />
+              <span className="font-semibold">100% Damage-Free Moves</span>
+            </div>
+            <div className="hidden md:flex items-center gap-2">
+              <span className="font-bold text-primary">Serving Sonipat since 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
@@ -60,8 +91,8 @@ const Header = () => {
                 </svg>
               </button>
               {isCitiesOpen && (
-                <div className="absolute top-full right-0 mt-2 w-48 bg-background border border-border rounded-lg shadow-lg py-2 z-50">
-                  {cityPages.map((city) => (
+                <div className="absolute top-full right-0 mt-2 w-64 bg-background border border-border rounded-lg shadow-lg py-2 z-50 max-h-96 overflow-y-auto">
+                  {allCityPages.map((city) => (
                     <Link
                       key={city.name}
                       to={city.href}
@@ -131,8 +162,8 @@ const Header = () => {
                   </svg>
                 </button>
                 {isCitiesOpen && (
-                  <div className="mt-2 ml-4 space-y-2">
-                    {cityPages.map((city) => (
+                  <div className="mt-2 ml-4 space-y-2 max-h-64 overflow-y-auto">
+                    {allCityPages.map((city) => (
                       <Link
                         key={city.name}
                         to={city.href}

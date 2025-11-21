@@ -18,6 +18,14 @@ import PackersAndMoversGanaur from "./pages/PackersAndMoversGanaur";
 import PackersAndMoversMurthal from "./pages/PackersAndMoversMurthal";
 import PackersAndMoversBarhi from "./pages/PackersAndMoversBarhi";
 import PackersAndMoversKharkhoda from "./pages/PackersAndMoversKharkhoda";
+import PackersAndMoversGohana from "./pages/PackersAndMoversGohana";
+import PackersAndMoversSamalkha from "./pages/PackersAndMoversSamalkha";
+import PackersAndMoversNarela from "./pages/PackersAndMoversNarela";
+import PackersAndMoversBahalgarh from "./pages/PackersAndMoversBahalgarh";
+import PackersAndMoversKharkhodaRoad from "./pages/PackersAndMoversKharkhodaRoad";
+import PackersAndMoversPanipatBorder from "./pages/PackersAndMoversPanipatBorder";
+import PackersAndMoversRohtakRoad from "./pages/PackersAndMoversRohtakRoad";
+import PackersAndMoversGanaurRoad from "./pages/PackersAndMoversGanaurRoad";
 import TestimonialsPage from "./pages/TestimonialsPage";
 import NotFound from "./pages/NotFound";
 
@@ -62,6 +70,14 @@ const App = () => {
             <Route path="/packers-and-movers-murthal" element={<PackersAndMoversMurthal />} />
             <Route path="/packers-and-movers-barhi" element={<PackersAndMoversBarhi />} />
             <Route path="/packers-and-movers-kharkhoda" element={<PackersAndMoversKharkhoda />} />
+            <Route path="/packers-and-movers-gohana" element={<PackersAndMoversGohana />} />
+            <Route path="/packers-and-movers-samalkha" element={<PackersAndMoversSamalkha />} />
+            <Route path="/packers-and-movers-narela" element={<PackersAndMoversNarela />} />
+            <Route path="/packers-and-movers-bahalgarh" element={<PackersAndMoversBahalgarh />} />
+            <Route path="/packers-and-movers-kharkhoda-road" element={<PackersAndMoversKharkhodaRoad />} />
+            <Route path="/packers-and-movers-panipat-border" element={<PackersAndMoversPanipatBorder />} />
+            <Route path="/packers-and-movers-rohtak-road" element={<PackersAndMoversRohtakRoad />} />
+            <Route path="/packers-and-movers-ganaur-road" element={<PackersAndMoversGanaurRoad />} />
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
